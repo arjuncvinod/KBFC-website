@@ -1,0 +1,26 @@
+:root{
+  --yellow:#f2dd21
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: ;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 10px;
+  background-color: var(--yellow);
+  align-items: center;
+}
+nav img{
+  width: 50px;
+  height: 50px;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 30px;
+}
