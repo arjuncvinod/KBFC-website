@@ -61,6 +61,12 @@ nav ul li a:hover{
   padding: 5px 10px;
   border-radius: 20px;
 }
+.menu-container{
+    display: none;
+}
+.menu{
+    color: var(--yellow);
+}
 #home{
   background-color: rgba(0, 0, 0, 0.695);
   /* height: 100vh; */
@@ -314,4 +320,98 @@ height: auto;
 width: auto;
 height: 100%;
 }
+}
+
+@media only screen and (max-width: 750px) {
+
+  .menu-container{
+    display: block;
+    position: relative;
+    z-index: 100;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    transition: 1s;
+}
+.menu{
+    color:var(--blue);
+    scale: 1.5;
+}
+.close{
+    color: black;
+}
+nav{
+  background-color: transparent;
+  backdrop-filter: blur(30px);
+  height: 60px;
+}
+nav img{
+  margin-top: 5px;
+  margin-left: 0px;
+   width: 40px;
+  height: 40px;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    background:var(--yellow);
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 0;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    align-items: center;
+    padding-top: 30px;
+    transition: .5s ease;
+    color: var(--yellow);
+    gap: 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--yellow);
+    
+}
+.Active{
+    width: 50%;
+    background-color: var(--yellow);
+    max-width: 200px;
+}
+.inactive{
+    width: 0;
+}
+.Active li a{
+    color: var(--blue);
+    
+}
+.inactive li a{
+    color: transparent;
+}
+nav ul li{
+    width: 100px;
+}
+nav ul li a{
+    color: transparent;
+    font-weight: bold;
+    text-align: start;
+    width: 100%;
+    transition: 1s;
+    margin: 20px 0;
+}
+nav{
+    display: flex;
+    align-items: flex-start ;
+}
+
+  .hero h1{
+    font-size: 5rem;
+  }
+  .active{
+    background-color: transparent;
+  }
 }
