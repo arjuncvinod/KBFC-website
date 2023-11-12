@@ -414,4 +414,11 @@ nav{
   .active{
     background-color: transparent;
   }
+
+  #photos section{
+    padding: 0 20px;
+  }
+ .heading{
+    margin-top: 55px;
+  }
 }
