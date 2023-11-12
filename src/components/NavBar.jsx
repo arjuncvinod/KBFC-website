@@ -1,15 +1,15 @@
 import React from 'react'
-import logo from "../assets/images/498.webp"
+import { NavLink } from 'react-router-dom'
 
 function NavBar() {
   return (
     <nav>
-      <img src={logo} alt=" " />
+      <img src="/images/498.webp" alt=" " />
       <ul>
-        <li>Home</li>
-        <li>Squad</li>
-        <li>Gallary</li>
-        <li>News</li>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/squad">Squad</NavLink></li>
+        <li><NavLink to="/photos">Photos</NavLink></li>
+        <li><NavLink to="/about">About</NavLink></li>
       </ul>
     </nav>
   )
