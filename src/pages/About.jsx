@@ -40,7 +40,7 @@ function About() {
         <SocialIcons />
         <div className="copyright">
             <p>Copyright &copy; 2023</p>
-            <p>Designed and Bulit by <a href="https://arjuncvinod.me">Arjun C Vinod</a></p>
+            <p>Designed and Built by <a href="https://arjuncvinod.me">Arjun C Vinod</a></p>
         </div>
         </footer>
       </section>
