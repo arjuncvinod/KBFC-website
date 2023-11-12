@@ -1,10 +1,14 @@
 import NavBar from "../components/NavBar";
+import Particle from "../components/Particle";
+import SocialIcons from "../components/SocialIcons";
 
 function About() {
   return (
     <main id="about">
       <NavBar />
-
+      <div className="particle-container">
+        <Particle />
+      </div>
       <section>
         <h1 className="heading">About us</h1>
         <p className="aboutus">
@@ -32,7 +36,12 @@ function About() {
           ISL.
         </p>
         <footer>
-          <div></div>
+        <h1 className="heading">Socials</h1>
+        <SocialIcons />
+        <div className="copyright">
+            <p>Copyright &copy; 2023</p>
+            <p>Designed and Bulit by <a href="https://arjuncvinod.me">Arjun C Vinod</a></p>
+        </div>
         </footer>
       </section>
     </main>
