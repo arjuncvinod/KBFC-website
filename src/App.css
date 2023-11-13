@@ -70,6 +70,7 @@ nav ul li a:hover{
 #home{
   background-color: rgba(0, 0, 0, 0.695);
   /* height: 100vh; */
+  overflow: hidden;
 }
 .hero{
   display: flex;
@@ -223,7 +224,7 @@ nav ul li a:hover{
   
   
 }
-.photos-container{
+#photos .photos-container{
   width: 300px;
   height: 300px;
   /* border: 1px solid black; */
@@ -233,10 +234,10 @@ nav ul li a:hover{
   flex-grow: 1;
   transition: .5s;
 }
-.photos-container:hover{
+#photos .photos-container:hover{
   scale: 1.03;
 }
-.photos-container:nth-child(odd){
+#photos .photos-container:nth-child(odd){
   width: auto;
 }
 

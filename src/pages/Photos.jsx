@@ -18,7 +18,7 @@ function Photos() {
                 return (
                   <a
                     href={url.url}
-                    className="photos-container"
+                    className="photos-container" 
                     data-aos="zoom-in"
                   >
                     <img src={`${url.url}`} alt="" />
