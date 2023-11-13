@@ -1,7 +1,7 @@
 import React from "react";
 function PlayerCard(props) {
   return (
-    <div className="player-card">
+    <div className="player-card" data-aos="flip-right">
       <div className="img-container">
         <img src={`/images/players/${props.image}`} alt="" />
       </div>

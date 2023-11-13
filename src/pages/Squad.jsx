@@ -1,9 +1,14 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import NavBar from '../components/NavBar'
 import PlayerCard from '../components/PlayerCard'
 import players from "../assets/data"
+import AOS from 'aos'
+import "aos/dist/aos.css";
 
 function Squad() {
+   useEffect(() => {
+     AOS.init({ duration: 750 });
+   }, []);
   return (
     <main id="squad">
         <NavBar />
