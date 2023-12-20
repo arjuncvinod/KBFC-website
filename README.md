@@ -1,4 +1,5 @@
 # Kerala blasters FC website
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=arjuncvinod.KBFC-website&left_color=blue&right_color=red)
 ### Website created as part of the Web For Team -Web Designing event hosted by IEDC AWH and Mulearn AWH
 ## [Live Demo](https://kbfc.vercel.app)
 
